@@ -1,4 +1,4 @@
-name = "product-stats-worker"        # your Worker script name
+name = "your-worker-name"        # your Worker script name
 main = "index.js"                # your main JS file
 compatibility_date = "2025-05-15" # today's date or your target date
 
