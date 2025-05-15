@@ -1,6 +1,9 @@
-name = "product-stats-worker"
-main = "index.js"
-compatibility_date = "2025-05-15"
+name = "your-worker-name"        # your Worker script name
+main = "index.js"                # your main JS file
+compatibility_date = "2025-05-15" # today's date or your target date
 
-[bindings]
-DB = { type = "d1", database_name = "returnedmath" }
+# Bind your D1 database here
+[[d1_databases]]
+binding = "DB"                  # this is how your code references the DB (env.DB)
+database_name = "returnedmath"
+database_id = "a92c27c6-61fb-416e-85c0-32ba458cbcaf"
