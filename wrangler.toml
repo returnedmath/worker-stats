@@ -5,6 +5,6 @@ compatibility_date = "2025-05-15"
 [vars]
 # Any env vars you want
 
-[bindings]
-  # D1 binding here, you also add this in dashboard!
-  DB = { binding = "DB", database_name = "returnedmath" }
+[[d1_databases]]
+binding = "DB"
+database_name = "returnedmath"
