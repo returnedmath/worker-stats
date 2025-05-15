@@ -2,9 +2,5 @@ name = "product-stats-worker"
 main = "index.js"
 compatibility_date = "2025-05-15"
 
-[vars]
-# Any env vars you want
-
-[[d1_databases]]
-binding = "DB"
-database_name = "returnedmath"
+[bindings]
+DB = { binding = "DB", database_name = "returnedmath" }
