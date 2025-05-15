@@ -1,6 +1,2 @@
-name = "product-stats-worker"
-main = "index.js"
-compatibility_date = "2025-05-15"
-
 [bindings]
-DB = { binding = "DB", database_name = "returnedmath" }
+DB = { type = "d1", database_name = "returnedmath" }
